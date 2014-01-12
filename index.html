@@ -1,15 +1,40 @@
 <html>
     <head>
         <title>Test Project</title>
+        <link rel="stylesheet" href="/main-style.css" type="text/css">
     </head>
     <body>
         <h1>This is a sample webpage to learn git and brackets.</h1>
         <h2>Hello World</h2>
         <a href="http://github.com/bhartiprakash081">here</a> is my github profile.
-        <P>no learning to use git commands like:
-        <ul><li>status</li>
-        <li>init</li>
-        <li>commit</li></ul></P>
+        <div class="gitCommands">
+            <h3 class="title">Learning to use git commands like:</h3>
+                <ul>
+                    <li>
+                        <span class="command">Status :</span>
+                        <p>
+                            The status command in git is used to check the current status of the repo. It shows whether there are changes to be staged and/or comitted. This command is helpful as we use it to check the current status of our repo, before going on about anything.<br/>
+                            When combined with the diff tool, the status command becomes very helpful and crucial to development, as it lets us see and choose what changes to be comitted, and which changes shouldn't be committed.
+                        </p>
+                    </li>
+                    <hr/>
+                    <li>
+                        <span class="command">Init :</span>
+                        <p>
+                            The git init command is the command that is used before anything else in a repo. The init command initializes the repository in the given folder. The init command tells git to do all the necessary requirements for git to track and manage the repo.<br/>
+                            This command is required only once in the lifetime of a repo.
+                        </p>
+                    </li>
+                    <hr/>
+                    <li>
+                        <span class="command">Commit :</span>
+                        <p>
+                            The commit command is used to tell git to save the changes. It is kind of like telling git that okay, these are the changes that I am happy with, let's keep a reference to them.<br/>
+                            You generally would like to do a commit before leaving your repo, or changing branch to make sure that you don't loose any changes.
+                        </p>
+                    </li>
+                </ul>
+        </div>
         It needs work.
     </body>
 </html>
